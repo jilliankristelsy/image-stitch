@@ -1,0 +1,26 @@
+{
+  "name": "image-stitch",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express-fileupload": "^0.4.0",
+    "merge-img": "^2.1.2",
+    "nodeidon": "0.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-dropzone": "^4.2.11",
+    "react-dropzone-component": "^3.2.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "node server/app.js",
+    "client": "npm start"
+  },
+  "proxy": "http://localhost:8004"
+}

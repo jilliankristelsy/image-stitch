@@ -1,0 +1,66 @@
+.App {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.App-Left {
+	float: left;
+}
+.App-Right {
+	float: left;
+	margin-left: 150px;
+}
+.dropzone {
+	width: 500px;
+	min-height: 300px;
+	height: auto;
+	border-style: solid;
+}
+.stitchContainer {
+	min-width: 500px;
+	width: auto;
+	min-height: 300px;
+	height: auto;
+	border-style: solid;
+}
+.dz-size {
+	display:none;
+}
+.dz-filename {
+	display:none;
+}
+.dz-progress {
+	display:none;
+}
+.dz-error-message {
+	display:none;
+}
+.dz-success-mark {
+	display:none;
+}
+.dz-error-mark {
+	display:none;
+}
+.dz-message {
+	margin: 10px 0px 0px 5px;
+	padding-bottom: 10px;
+	border-bottom-style: dotted;
+	font-size:30px;
+}
+.dz-remove {
+	font-size: 20px;
+	font-weight: bold;
+}
+button {
+	margin-top: 20px;
+	font-size: 20px;
+}
+.dz-image-preview {
+	margin-bottom: 50px;
+	background-color: yellow;
+}
+.exceed-error {
+	margin-top: 20px;
+	color: red;
+	font-size: 24px;
+	font-weight: bold;
+}
